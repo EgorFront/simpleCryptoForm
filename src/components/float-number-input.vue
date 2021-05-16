@@ -132,10 +132,6 @@ export default {
     },
 
     value(value) {
-      console.log(
-        this.inputValue === `${value}` ||
-          this.inputValue === Number(value).toFixed(this.digit)
-      )
       if (
         this.inputValue === `${value}` ||
         this.inputValue === Number(value).toFixed(this.digit)
